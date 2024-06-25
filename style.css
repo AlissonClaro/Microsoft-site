@@ -251,8 +251,10 @@ header {
 
 .footer {
     display: flex;
-    background: #f2f1f1;
-    margin: 20px;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    padding: 0 5%;
     
     ul {
         margin: 30px;
