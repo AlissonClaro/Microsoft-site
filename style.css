@@ -164,7 +164,7 @@ header {
 
     .card {
         position: absolute;
-        left: 13%;
+        left: 25%;
         border-radius: 0;
         border: none;
         padding: 30px;
@@ -176,7 +176,25 @@ header {
     }
 }
 
-.tittle-business {
+.title-business {
+    width: 100%;
+    display: flex;;
+    justify-content: center;
+    padding: 0 5%;
+    margin-bottom: 20px;
+
+    div {
+        width: 100%;
+        max-width: 1500px;
+
+        h3 {
+            font-size: 2.4rem;
+            font-weight: 600;
+        }
+    }
+}
+
+.social-media {
     width: 100%;
     max-width: 1500px;
     justify-content: center;
@@ -187,18 +205,69 @@ header {
         width: 100%;
         max-width: 1500px;
 
-        h3 {
-            font-size: 2rem;
-            font-weight: 600;
+        ul {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin: 60px 0;
+            gap: 20px;
+            
+            li {
+                cursor: pointer;
+            }
+
+            p {
+               margin: 0;
+               font-size: 1.2rem;
+               font-weight: 500;
+               color: #262626; 
+            }
+
+            img {
+                width: 34px;
+
+            }
         }
     }
+
 }
 
-.social-media {
-    display: absolute;
-    justify-content: center;
-    width: 100%;
-    max-width: 1500px;
-    padding: 0 5%;
+.btn-start {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    position: sticky;
+    bottom: 20px;
+    
+    a {
+        cursor: pointer;
+        padding: 0.6rem 0.75rem;
+        background: rgba(0, 0, 0, .15);
+        text-decoration: none;
+        color: #000;
+    }
 
+}
+
+.footer {
+    display: flex;
+    background: #f2f1f1;
+    margin: 20px;
+    
+    ul {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    ul .bold {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #262626;
+    }
+
+    li {
+        color: #616161;
+    }
 }
