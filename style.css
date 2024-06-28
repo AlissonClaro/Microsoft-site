@@ -79,6 +79,10 @@ header {
         top: 300px;
     }
 
+    .img-carousel-resp {
+        display: none;
+    }
+
 }
 
 .links {
@@ -273,4 +277,8 @@ header {
     li {
         color: #616161;
     }
+}
+
+.menu-responsive {
+    display: none;
 }

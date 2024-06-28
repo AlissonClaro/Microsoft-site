@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+    header {
+        .menu-widescreen {
+            display: none;
+        }
+
+        .menu-responsive {
+            display: block;
+        }
+
+    }
+}
+
+.slide {
+    .img-carousel {
+        display: none;
+    }
+
+    .img-carousel-resp {
+        display: block;
+    }
+}
+
+
+.footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
